@@ -13,7 +13,6 @@ teamoneShootButton.addEventListener("click", function () {
     console.log(randomNumberVar)
     if (randomNumberVar > 0.5) {
         teamOneGoals.innerHTML = Number(teamOneGoals.innerHTML) + 1;
-    } else {
     }
 
 })
@@ -24,7 +23,6 @@ teamtTWOShootButton.addEventListener("click", function () {
     console.log(randomNumberVar)
     if (randomNumberVar > 0.5) {
         teamTWOGoals.innerHTML = Number(teamTWOGoals.innerHTML) + 1;
-    } else {
     }
 
 })

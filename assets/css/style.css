@@ -1,3 +1,31 @@
+#outercontainer {
+    border: 5px solid tomato;
+    background-color: lightgray;
+    max-width: 860px;
+    height: 860px;
+    padding: 30px;
+}
+
+#teamone-shoot-button, #teamtwo-shoot-button {
+    background-color: lime;
+    border: 2px solid gray;
+    border-radius: 2px;
+    padding: 5px 20px;
+    margin: 5px
+}
+
+#reset-button {
+    background-color: tomato;
+    border: 2px solid gray;
+    border-radius: 2px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#num-resets {
+    margin: 10px;
+}
+
 .hide {
     display: none;
 }
